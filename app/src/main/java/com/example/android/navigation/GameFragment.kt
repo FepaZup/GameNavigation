@@ -35,25 +35,25 @@ class GameFragment : Fragment() {
     // All questions must have four answers.  We'd want these to contain references to string
     // resources so we could internationalize. (Or better yet, don't define the questions in code...)
     private val questions: MutableList<Question> = mutableListOf(
-        Question(text = "What is Android Jetpack?",
+        Question(text = "O que é o Jetpack?",
             answers = listOf("All of these", "Tools", "Documentation", "Libraries")),
-        Question(text = "What is the base class for layouts?",
+        Question(text = "Qual é a classe base para layouts?",
             answers = listOf("ViewGroup", "ViewSet", "ViewCollection", "ViewRoot")),
-        Question(text = "What layout do you use for complex screens?",
+        Question(text = "Que layout usamos para telas complexas?",
             answers = listOf("ConstraintLayout", "GridLayout", "LinearLayout", "FrameLayout")),
-        Question(text = "What do you use to push structured data into a layout?",
+        Question(text = "O que usamos para enviar dados estruturados para os lauouts?",
             answers = listOf("Data binding", "Data pushing", "Set text", "An OnClick method")),
-        Question(text = "What method do you use to inflate layouts in fragments?",
+        Question(text = "Que método usamos para inflar layouts em um fragmento?",
             answers = listOf("onCreateView()", "onActivityCreated()", "onCreateLayout()", "onInflateLayout()")),
-        Question(text = "What's the build system for Android?",
+        Question(text = "O android usa qual sistema de criação?",
             answers = listOf("Gradle", "Graddle", "Grodle", "Groyle")),
-        Question(text = "Which class do you use to create a vector drawable?",
+        Question(text = "Que classe usamos para criar um desenho vetorial?",
             answers = listOf("VectorDrawable", "AndroidVectorDrawable", "DrawableVector", "AndroidVector")),
-        Question(text = "Which one of these is an Android navigation component?",
+        Question(text = "Qual desses é um componente de navegação do android?",
             answers = listOf("NavController", "NavCentral", "NavMaster", "NavSwitcher")),
-        Question(text = "Which XML element lets you register an activity with the launcher activity?",
+        Question(text = "Qual elemento XML permite registrar uma atividade para ser iniciado pelo laucher?",
             answers = listOf("intent-filter", "app-registry", "launcher-registry", "app-launcher")),
-        Question(text = "What do you use to mark a layout for data binding?",
+        Question(text = "O que usamos para marcar um layout para databinding?",
             answers = listOf("<layout>", "<binding>", "<data-binding>", "<dbinding>"))
     )
 
